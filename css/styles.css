@@ -1,3 +1,6 @@
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Lora', serif;*/
+
 :root {
   --primary-color: #f7f2ee;
   --secondary-color: #7e625cc5;
@@ -11,33 +14,34 @@ body html {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   text-align: center;
   margin: 0;
 }
 
 h1 {
   font-size: 96px;
+  font-family: "Lora", serif;
+  font-weight: 400;
 }
 
 h2 {
-  font-size: 48px;
-  margin-top: 16px;
-}
-
-h3 {
   font-size: 24px;
   opacity: 0.7;
+  font-family: "Nunito", sans-serif;
+  font-weight: medium;
 }
-h4 {
+h3 {
   font-size: 48px;
+  font-family: "Nunito", sans-serif;
+  font-weight: medium;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
   margin-top: 0;
+  font-family: "Nunito", sans-serif;
 }
 img {
   max-width: 100%;
