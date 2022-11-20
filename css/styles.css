@@ -16,13 +16,13 @@ body html {
 h1,
 h2 {
   text-align: center;
-  margin: 0;
 }
 
 h1 {
   font-size: 96px;
   font-family: "Lora", serif;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 h2 {
