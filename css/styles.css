@@ -6,9 +6,7 @@ font-family: 'Lora', serif;*/
   --secondary-color: #7e625cc5;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-body {
-  margin: 100px 0;
-}
+
 body html {
   max-width: 800px;
 }
@@ -23,6 +21,7 @@ h1 {
   font-family: "Lora", serif;
   font-weight: 400;
   margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 h2 {
@@ -47,6 +46,10 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+.banner {
+  background: var(--primary-color);
+  margin-top: 50px;
 }
 .contact-me {
   text-align: center;
