@@ -154,15 +154,13 @@ img {
 }
 @media (max-width: 575.98px) {
   h1 {
-    font-size: 72px;
+    font-size: 55px;
   }
   h2 {
-    font-size: 40px;
+    font-size: 20px;
   }
   h3 {
     margin-top: 10px;
-  }
-  h4 {
     text-align: center;
   }
 
@@ -180,5 +178,40 @@ img {
   }
   .email-link {
     font-size: 18px;
+  }
+}
+@media (max-width: 390px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+  .paragraph-link {
+    text-align: center;
+  }
+  .about-image {
+    margin-top: 10px;
+  }
+  .contact-me {
+    font-size: 22px;
+  }
+  .email-link {
+    font-size: 16px;
+  }
+  .contact-link {
+    font-size: 13px;
+  }
+  .about-link {
+    font-size: 13px;
   }
 }
