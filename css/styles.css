@@ -34,13 +34,13 @@ h2 {
 }
 h3 {
   font-size: 48px;
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-weight: medium;
 }
 
 p {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 30px;
   margin-top: 0;
   font-family: var(--default-font-family);
 }
@@ -85,15 +85,12 @@ img {
   font-weight: 700;
 }
 
-.contact-link {
+.btn-contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
-}
-
-.about-link {
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
+  padding: 15px 30px !important;
+  font-size: 18px;
 }
 
 .homepage-link {
@@ -121,7 +118,7 @@ img {
 .email-link:hover {
   text-decoration: underline;
 }
-.primary-link {
+.btn-primary-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -210,10 +207,7 @@ img {
   .email-link {
     font-size: 16px;
   }
-  .contact-link {
-    font-size: 13px;
-  }
-  .about-link {
+  .btn-contact-link {
     font-size: 13px;
   }
 }
