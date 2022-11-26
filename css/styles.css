@@ -5,6 +5,8 @@ font-family: 'Lora', serif;*/
   --primary-color: #f7f2ee;
   --secondary-color: #7e625cc5;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font-family: "Lora", serif;
+  --default-font-family: "Nunito", sans-serif;
 }
 
 body html {
@@ -18,7 +20,7 @@ h2 {
 
 h1 {
   font-size: 96px;
-  font-family: "Lora", serif;
+  font-family: var(--heading-font-family);
   font-weight: 400;
   margin-bottom: 20px;
   margin-top: 0px;
@@ -27,12 +29,12 @@ h1 {
 h2 {
   font-size: 24px;
   opacity: 0.7;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: medium;
 }
 h3 {
   font-size: 48px;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: medium;
 }
 
@@ -40,7 +42,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-top: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--default-font-family);
 }
 img {
   max-width: 100%;
@@ -55,7 +57,7 @@ img {
   text-align: center;
   font-size: 24px;
   opacity: 0.7;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: medium;
 }
 .navigation-links {
