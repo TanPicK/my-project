@@ -98,21 +98,29 @@ h2 {
   display: block;
 }
 .content-container {
-  padding: 60px 20px;
+  padding: 100px 20px;
 }
 .content {
   margin: 10px 30px;
 }
-.content-container h1 {
+.content h1 {
   font-size: 70px;
   line-height: 80px;
 }
-.content-container h2 {
+.content h2 {
   text-align: start;
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
   font-family: var(--default-font-family);
+}
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  margin-bottom: 0;
+}
+.projects-language {
+  font-size: 14px;
 }
 
 .headshot {
@@ -140,18 +148,18 @@ h2 {
   color: var(--secondary-color);
 }
 .project-description {
-  margin: 100px 30px;
+  margin: 20px 30px;
 }
 .tango-image {
   padding: 10px;
   border: 5px solid var(--primary-color);
 }
 .weather-image {
-  padding: 64px 10px;
+  padding: 28px 30px;
   border: 5px solid var(--primary-color);
 }
 .certificate-image {
-  padding: 58px 10px;
+  padding: 58px 20px;
   border: 5px solid var(--primary-color);
 }
 .center {
@@ -177,8 +185,8 @@ h2 {
   p {
     text-align: center;
   }
-  img {
-    margin-top: 50px;
+  .btn {
+    margin-bottom: 50px;
   }
 
   .paragraph-link {
@@ -231,6 +239,9 @@ h2 {
   }
   .btn-contact-link {
     font-size: 13px;
+  }
+  .btn {
+    margin-bottom: 50px;
   }
   .project-description {
     margin: 0px;
