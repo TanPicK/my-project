@@ -97,17 +97,17 @@ h2 {
   text-align: center;
   display: block;
 }
-.about-section {
+.content-container {
   padding: 60px 20px;
 }
-.about-section-content {
+.content {
   margin: 10px 30px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 70px;
   line-height: 80px;
 }
-.about-section h2 {
+.content-container h2 {
   text-align: start;
   font-size: 18px;
   font-weight: bold;
@@ -184,14 +184,14 @@ h2 {
   .paragraph-link {
     text-align: center;
   }
-  .about-section {
+  .content-container {
     padding: 30px 20px;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 55px;
     text-align: center;
   }
-  .about-section h2 {
+  .content-container h2 {
     text-align: center;
   }
   .contact-me {
@@ -235,14 +235,14 @@ h2 {
   .project-description {
     margin: 0px;
   }
-  .about-section {
+  .content-container {
     padding: 30px 20px;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 55px;
     text-align: center;
   }
-  .about-section h2 {
+  .content-container h2 {
     text-align: center;
   }
 }
