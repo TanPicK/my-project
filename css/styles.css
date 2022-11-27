@@ -3,7 +3,7 @@ font-family: 'Lora', serif;*/
 
 :root {
   --primary-color: #f7f2ee;
-  --secondary-color: #7e625cc5;
+  --secondary-color: #7e625cfb;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Lora", serif;
   --default-font-family: "Nunito", sans-serif;
@@ -19,6 +19,7 @@ h1 {
   font-weight: 400;
   margin-bottom: 20px;
   margin-top: 0px;
+  color: var(--secondary-color);
 }
 
 h2 {
@@ -31,6 +32,7 @@ h3 {
   font-size: 48px;
   font-family: var(--heading-font-family);
   font-weight: medium;
+  color: var(--secondary-color);
 }
 
 p {
