@@ -3,7 +3,7 @@ font-family: 'Lora', serif;*/
 
 :root {
   --primary-color: #f7f2ee;
-  --secondary-color: #7e625cfb;
+  --secondary-color: hsla(11, 16%, 43%, 0.984);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Lora", serif;
   --default-font-family: "Nunito", sans-serif;
@@ -48,10 +48,7 @@ img {
 }
 .banner {
   background: var(--primary-color);
-  padding: 160px 0 70px 0;
-}
-.banner h1,
-h2 {
+  padding: 160px 70px;
   text-align: center;
 }
 
@@ -74,6 +71,8 @@ h2 {
 .navbar-brand,
 .nav-link {
   color: var(--secondary-color);
+  font-family: var(--heading-font-family);
+  font-size: 18px;
 }
 .on-page {
   color: var(--secondary-color) !important;
@@ -129,7 +128,7 @@ h2 {
   display: flex;
   justify-content: center;
   color: var(--secondary-color);
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
 }
 
