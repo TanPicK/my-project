@@ -126,7 +126,7 @@ img {
   max-width: 80%;
 }
 
-footer .email-link:link {
+footer .email-link {
   display: flex;
   justify-content: center;
   color: var(--secondary-color);
@@ -163,13 +163,16 @@ footer .email-link:hover {
   padding: 58px 20px;
   border: 5px solid var(--primary-color);
 }
-.center {
+/*.center {
   text-align: center;
   width: 100%;
-}
-.social-link {
-  margin-top: 40px;
+}*/
+.social-link a {
+  text-align: center;
   color: var(--secondary-color);
+  padding: 20px 14px 12px 14px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
 }
 .contact-me {
   text-align: center;
