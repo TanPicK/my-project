@@ -35,6 +35,11 @@ h3 {
   font-weight: medium;
   color: var(--secondary-color);
 }
+h4 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+  color: var(--secondary-color);
+}
 
 p {
   font-size: 18px;
@@ -126,19 +131,6 @@ img {
   max-width: 80%;
 }
 
-footer .email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--secondary-color);
-  font-size: 20px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer .email-link:hover {
-  color: var(--primary-color);
-}
-
 .btn-primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -167,6 +159,37 @@ footer .email-link:hover {
   text-align: center;
   width: 100%;
 }*/
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+footer .btn-contact-box {
+  background: white;
+  border-radius: 4px;
+  padding: 15px 40px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: var(--default-font-family);
+}
+
+footer .email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .email-link a:hover {
+  color: var(--primary-color);
+}
+
 .social-link a {
   text-align: center;
   color: var(--secondary-color);
@@ -174,6 +197,12 @@ footer .email-link:hover {
   border-radius: 50%;
   background-color: var(--primary-color);
 }
+
+.social-link a:hover {
+  color: white;
+  background: var(--secondary-color);
+}
+
 .contact-me {
   text-align: center;
   font-size: 24px;
@@ -195,10 +224,23 @@ footer a {
     margin-top: 10px;
     text-align: center;
   }
+  h4 {
+    font-size: 30px;
+  }
 
   p {
     text-align: center;
   }
+  footer .contact-box {
+    padding: 30px 0 0 0 !important;
+  }
+  footer .btn-contact-box {
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: var(--default-font-family);
+  }
+
   .btn {
     margin-bottom: 50px;
   }
@@ -242,6 +284,7 @@ footer a {
   p {
     text-align: center;
   }
+
   .paragraph-link {
     text-align: center;
   }
