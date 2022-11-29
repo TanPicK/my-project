@@ -183,11 +183,10 @@ footer .email-link {
   color: var(--secondary-color);
   font-size: 20px;
   text-decoration: none;
-  font-weight: bold;
 }
 
-footer .email-link a:hover {
-  color: var(--primary-color);
+footer .email-link:hover {
+  color: hsla(12, 16%, 43%, 0.504);
 }
 
 .social-link a {
@@ -210,9 +209,7 @@ footer .email-link a:hover {
   font-weight: bold;
   color: var(--secondary-color);
 }
-footer a {
-  color: #6c757d !important;
-}
+
 @media (max-width: 780px) {
   h1 {
     font-size: 55px;
