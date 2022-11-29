@@ -81,6 +81,14 @@ img {
   font-size: 18px;
 }
 
+.navbar-brand:hover {
+  color: hsla(12, 16%, 43%, 0.504);
+}
+
+.nav-link:hover {
+  color: hsla(12, 16%, 43%, 0.504);
+}
+
 .on-page {
   color: var(--secondary-color) !important;
   font-weight: 700;
