@@ -7,6 +7,7 @@ font-family: 'Lora', serif;*/
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Lora", serif;
   --default-font-family: "Nunito", sans-serif;
+  --hover-color: hsla(12, 16%, 43%, 0.504);
 }
 
 body html {
@@ -24,20 +25,15 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
-  font-family: var(--default-font-family);
+  font-size: 48px;
+  font-family: var(--heading-font-family);
   font-weight: medium;
   color: var(--secondary-color);
 }
 h3 {
-  font-size: 48px;
-  font-family: var(--heading-font-family);
+  font-size: 24px;
+  font-family: var(--default-font-family);
   font-weight: medium;
-  color: var(--secondary-color);
-}
-h4 {
-  font-size: 48px;
-  font-family: var(--heading-font-family);
   color: var(--secondary-color);
 }
 
@@ -54,7 +50,7 @@ img {
 }
 .banner {
   background: var(--primary-color);
-  padding: 160px 70px;
+  padding: 119px 70px 60px 70px;
   text-align: center;
 }
 
@@ -82,11 +78,11 @@ img {
 }
 
 .navbar-brand:hover {
-  color: hsla(12, 16%, 43%, 0.504);
+  color: var(--hover-color);
 }
 
 .nav-link:hover {
-  color: hsla(12, 16%, 43%, 0.504);
+  color: var(--hover-color);
 }
 
 .on-page {
@@ -101,6 +97,10 @@ img {
   padding: 15px 30px !important;
   font-size: 18px;
 }
+.btn-contact-link:hover {
+  background-color: white;
+  color: var(--secondary-color);
+}
 
 .homepage-link {
   color: var(--secondary-color);
@@ -109,6 +109,9 @@ img {
 }
 .content-container {
   padding: 100px 20px;
+}
+.content-container-index {
+  padding: 50px 20px;
 }
 .content {
   margin: 10px 30px;
@@ -148,6 +151,9 @@ img {
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
 }
+.btn-primary-link:hover {
+  color: var(--secondary-color);
+}
 .project-description {
   margin: 20px 30px;
 }
@@ -162,6 +168,9 @@ img {
 .certificate-image {
   padding: 58px 20px;
   border: 5px solid var(--primary-color);
+}
+.cert {
+  max-width: 100%;
 }
 
 footer .contact-box {
@@ -181,6 +190,9 @@ footer .btn-contact-box {
   font-size: 16px;
   font-family: var(--default-font-family);
 }
+footer .btn-contact-box:hover {
+  color: var(--secondary-color);
+}
 
 footer .email-link {
   display: flex;
@@ -195,9 +207,8 @@ footer .email-link:hover {
 }
 
 .social-link a {
-  text-align: center;
   color: var(--secondary-color);
-  padding: 20px 14px 12px 14px;
+  padding: 22px 14px 12px 14px;
   border-radius: 50%;
   background-color: var(--primary-color);
 }
@@ -221,19 +232,23 @@ footer .email-link:hover {
   }
   h2 {
     font-size: 20px;
+    text-align: center;
   }
   h3 {
     margin-top: 10px;
     text-align: center;
   }
-  h4 {
+  /*h4 {
     font-size: 30px;
-  }
+  }*/
 
   p {
     text-align: center;
   }
 
+  .certificate-heading h2 {
+    font-size: 40px;
+  }
   .btn {
     margin-bottom: 50px;
   }
@@ -244,11 +259,12 @@ footer .email-link:hover {
   .content-container {
     padding: 30px 20px;
   }
+
   .content-container h1 {
     font-size: 55px;
     text-align: center;
   }
-  .content-container h2 {
+  .content-container h3 {
     text-align: center;
   }
   .contact-me {
@@ -273,9 +289,9 @@ footer .email-link:hover {
     font-size: 25spx;
     text-align: center;
   }
-  h4 {
+  /*h4 {
     font-size: 20px;
-  }
+  }*/
   p {
     text-align: center;
   }
@@ -308,7 +324,10 @@ footer .email-link:hover {
   .content-container h2 {
     text-align: center;
   }
-  .content h3 {
+  .content h2 {
     font-size: 15px;
+  }
+  .content-container-index {
+    padding: 0 20px 30px 20px;
   }
 }
