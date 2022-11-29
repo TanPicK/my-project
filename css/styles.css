@@ -11,6 +11,7 @@ font-family: 'Lora', serif;*/
 
 body html {
   max-width: 800px;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -133,8 +134,9 @@ img {
 }
 
 .email-link:hover {
-  text-decoration: underline;
+  color: var(--primary-color);
 }
+
 .btn-primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -163,9 +165,9 @@ img {
   text-align: center;
   width: 100%;
 }
-.fa-linkedin {
+.social-link {
   margin-top: 40px;
-  color: #0a66c2;
+  color: var(--secondary-color);
 }
 .contact-me {
   text-align: center;
