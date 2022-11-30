@@ -260,7 +260,6 @@ footer .email-link:hover {
   h3 {
     margin-top: 10px;
     text-align: center;
-    font-size: 18px;
   }
 
   p {
@@ -269,6 +268,9 @@ footer .email-link:hover {
 
   .certificate-heading h2 {
     font-size: 40px;
+  }
+  .content h3 {
+    font-size: 18px;
   }
   .certificate-section {
     margin: 40px 0;
