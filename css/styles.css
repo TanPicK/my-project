@@ -157,16 +157,24 @@ img {
 .btn-primary-link:hover {
   color: var(--secondary-color);
 }
-.project-description {
+.intro {
   margin: 20px 30px;
+}
+
+.project-description {
+  margin: 191px 30px;
 }
 .tango-image {
   padding: 10px;
   border: 5px solid var(--primary-color);
 }
+.tango-image-project-page {
+  margin-left: 0;
+}
 .weather-image {
   padding: 28px 30px;
   border: 5px solid var(--primary-color);
+  margin-left: 0;
 }
 .certificate-image {
   padding: 58px 20px;
@@ -267,6 +275,9 @@ footer .email-link:hover {
   p {
     text-align: center;
   }
+  .content h2 {
+    text-align: center;
+  }
 
   .certificate-heading h2 {
     font-size: 40px;
@@ -309,6 +320,15 @@ footer .email-link:hover {
   }
   .cert {
     margin-top: 0;
+  }
+  .tango-image-project-page {
+    margin: 0 auto;
+  }
+  .weather-image {
+    margin: 0 auto;
+  }
+  .p-project {
+    margin-top: 40px;
   }
 }
 @media (max-width: 415px) {
